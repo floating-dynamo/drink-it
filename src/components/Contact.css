@@ -1,0 +1,118 @@
+.contact{
+    height:80vh;
+    color: white;
+    /* border: 5px solid red; */
+    text-align: center;
+    display: block;
+    clip-path: ellipse(72% 100% at 50% 100%);
+    background-color: #845ec2;
+}
+
+.contact-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.contact h1{
+    font-size: 2.25rem;
+    padding-top: 50px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin: 40px auto; */
+    margin: 0 50px;
+}
+
+.contact-form input{
+    color: white;
+    width:420px;
+    outline: none;
+    border: none;
+    margin: 15px 0;
+    font-size: 1.25rem;
+    background-color: #845ec2;
+    border-bottom: 2px solid white;
+    font-family: 'Poppins',sans-serif;
+    padding: 10px 20px;
+    font-weight: 600; 
+}
+
+.contact-form input::placeholder{
+    color: white;
+    font-weight: 300;
+}
+
+.contact-loc{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.contact-loc p{
+    font-size: 1.2rem;
+}
+
+.contact-icon{
+    font-size: 2rem;
+    margin: 0 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact-icon:hover{
+    color: #f9b244;
+}
+
+.contact-submit button{
+    border: none;
+    outline: none;
+    margin-top: 40px;
+    font-size: 1rem;
+    padding: 10px 50px;
+    border-radius: 0.2vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: #440e62;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.contact-submit button:hover{
+    color: #845ec2;
+    background-color: white;
+}
+
+.contact-social{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-social h2{
+    margin-right: 50px;
+}
+
+.contact-social-icon{
+    margin: 0 20px;
+    transition: all 0.2s ease-in-out;
+    background-color: #fff;
+    color: #845ec2;
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.contact-social-icon:hover{
+    background-color: #f9b244;
+    color: #fff;
+}

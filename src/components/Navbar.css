@@ -1,0 +1,101 @@
+.navbar{
+    background-color: #440e62;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ddd;
+    
+}
+
+.navbar-brand{
+    width: 170px;
+    /* border-radius: 100%; */
+    background-color: white;
+    padding: 20px;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+.navbar-items{
+    display: flex;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-right: 50px;
+}
+
+.navbar-items a{
+    color: #ddd;
+    text-decoration: none;
+    margin-right: 50px;
+    font-weight: 500;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.navbar-items a:hover{
+   color: #fff;
+}
+
+.navbar-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background-color: #f9b244 ;
+    border-radius: 40px;
+    transition: all 0.3s linear;
+}
+
+.navbar-link:hover::before{
+    left: 0;
+}
+
+.search-bar{
+    position: relative;
+}
+
+.search-bar input{
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+    border-radius: 40px;
+    font-size: 1.1rem;
+    width: 220px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.search-bar input::placeholder{
+    padding-left: 7px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.search-bar .search-icon {
+    position: absolute;
+    top: 9px;
+    right: 10px;
+    cursor: pointer;
+    /* #f9b244 */
+}
+
+.search-bar .search-icon:hover {
+    color: #845ec2;
+}
+
+.icons{
+    margin-left: 20px;
+}
+
+.icons .icon{
+    font-size: 1.5rem;
+    margin: 0 17px;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease-out;
+}
+
+.icon:hover{
+    color: #f9b244;
+}
+

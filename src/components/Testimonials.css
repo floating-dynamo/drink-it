@@ -1,0 +1,67 @@
+.testimonials {
+    background-image: url("../images/background/wave-2.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 130vh;
+	text-align: center;
+	/* margin-top: 50px; */
+	padding-top: 100px;
+	position: relative;
+	/* border: solid 5px red; */
+}
+
+.testimonials .test-title {
+	font-size: 2.75rem;
+	color: white;
+}
+
+.test-sub-title {
+	margin-bottom: 70px;
+    font-weight: 300;
+    word-spacing: 1px;
+}
+
+.testimonials .test-icon {
+	position: absolute;
+	background-color: #f28500;
+	color: white;
+	border-radius: 50%;
+	padding: 10px 18px;
+	cursor: pointer;
+	transition: all 0.3s ease-in;
+	bottom: 42vh;
+	font-size: 2rem;
+}
+.testimonials .test-icon:hover {
+	background-color: #f9b244 ;
+}
+
+.testimonials .left {
+	left: 70px;
+}
+
+.testimonials .right {
+	right: 70px;
+}
+
+.test-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    /* background-color: #f28500; */
+    margin: 20px 5px;
+    border: 3px solid #f9b244;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.circle:hover{
+    background-color: #f9b244;
+}

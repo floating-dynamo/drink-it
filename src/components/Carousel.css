@@ -1,0 +1,50 @@
+.carousel {
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding:0 150px;
+}
+
+.profile-img {
+	width: 250px;
+    height:350px;
+	border-radius: 7px;
+	border: 5px solid #f28500;
+	overflow: hidden;
+	margin-bottom: 40px;
+	/* align-self: center; */
+}
+
+.profile-title{
+    border-bottom: 2px solid #7678ed;
+}
+
+.profile-content-cont{
+    position: relative;
+}
+
+.profile-content{
+    padding:20px 40px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.75;
+    word-spacing: 1px;
+
+}
+
+.content-icon{
+    position: absolute;
+    font-size: 2rem;
+    color: #7678ed;
+}
+
+.content-icon-left{
+    top: 0;
+    left: 0;
+}
+.content-icon-right{
+    bottom: 40px;
+    right: 10px;
+}
