@@ -1,0 +1,139 @@
+.bt-juice-details {
+	display: flex;
+	/* align-items: center; */
+	/* justify-content: center; */
+	box-sizing: border-box;
+	padding: 20px 50px;
+    margin-left: 60px;
+	/* height: 50vh; */
+}
+
+.bottle-img {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	align-items: center;
+	justify-content: center;
+}
+
+.bottle-btns {
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+}
+
+.bottle-btns > p {
+	margin: 50px 10px 0 0;
+	background-color: #f28500;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 0.2vw;
+}
+
+.bottle-btns > input {
+	border: 1px solid #f28500;
+	height: 30px;
+	outline: none;
+}
+
+.bt-content {
+	display: flex;
+	flex-direction: column;
+	margin-left: 100px;
+	width: 50vw;
+	/* align-items: center;  */
+	/* justify-content: center; */
+}
+
+.bt-content > h1 {
+	font-weight: 500;
+	padding: 0 20px;
+	color: rgba(67, 13, 97, 1);
+}
+
+.bt-content > .line {
+	height: 3px;
+	overflow: hidden;
+	margin: 10px 0 20px 0;
+	background-color: rgba(67, 13, 97, 0.5);
+	border-radius: 40px;
+}
+
+.review-stars {
+	display: flex;
+	align-items: center;
+}
+
+.review-stars > h4 {
+	font-size: 1.75rem;
+	color: #f28500;
+	margin-right: 20px;
+}
+
+.bottle-content {
+	display: flex;
+	flex-direction: column;
+}
+
+.bottle-content > h4 {
+	margin: 15px 0 10px 0;
+	font-size: 1.5rem;
+}
+
+.bottle-content > h6 {
+	font-size: 1rem;
+	margin-bottom: 25px;
+}
+
+.bottle-content > p {
+	margin-bottom: 10px;
+}
+
+.bottle-counter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.bottle-counter > p {
+	margin: 0 10px;
+	user-select: none;
+}
+
+.bottle-counter > h4 {
+	margin: 0 15px;
+}
+
+.bottle-counter > .operator {
+	background-color: rgba(67, 13, 97, 0.8);
+	color: white;
+	padding: 10px 17px;
+	border-radius: 0.2vw;
+	text-align: center;
+	cursor: pointer;
+}
+
+.bottle-counter > .operator:hover {
+	background-color: rgba(67, 13, 97, 1);
+}
+
+.bottle-btns > p {
+	cursor: pointer;
+}
+
+.bottle-btn-buy-now {
+	background-color: rgba(67, 13, 97, 0.8);
+	border: 2px solid rgba(67, 13, 97, 0.8);
+	margin-top: 25px;
+	color: white;
+	cursor: pointer;
+	padding: 10px 20px;
+	border-radius: 0.2vw;
+	transition: all 0.3s ease-in;
+}
+
+.bottle-btn-buy-now:hover {
+	background-color: white;
+	color: rgba(67, 13, 97, 0.8);
+}

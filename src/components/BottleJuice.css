@@ -1,0 +1,83 @@
+.bottle-juice {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+}
+
+.bottle-juice > h1 {
+	margin-bottom: 50px;
+	border-bottom: 5px solid #f28500;
+}
+
+.juice-bottles {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.juice-bottle {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 400px;
+	margin: 10px;
+	margin-bottom: 40px;
+	/* border: 2px solid red; */
+	box-shadow: 2px 2px 1rem rgba(0, 0, 0, 0.2);
+	border-radius: 0.2vw;
+	padding: 20px;
+	position: relative;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+}
+
+.juice-bottle:hover{
+	transform: scale(1.04);
+}
+
+.juice-bottle > img {
+	width: 120px;
+	margin-bottom: 20px;
+	/* box-shadow: 2px 2px 1rem rgba(0, 0, 0, 0.2); */
+}
+
+.juice-bottle > h4 {
+	font-size: 1.25rem;
+	margin: 5px;
+}
+
+.juice-bottle-btn {
+	font-size: 1rem;
+	margin: 10px;
+	padding: 10px 20px;
+	background-color: #f28500;
+    border: 2px solid #f28500;
+	color: white;
+	border-radius: 0.2vw;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.juice-bottle-btn:hover{
+    color: #f28500;
+    background-color: white;
+}
+
+.juice-bottle-wish {
+	position: absolute;
+	right: 20px;
+	font-size: 1.5rem;
+	border-radius: 100%;
+	/* background-color: red; */
+	box-shadow: 2px 2px 1rem rgba(0, 0, 0, 0.2);
+	padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.juice-bottle-wish:hover{
+	background-color: #f28500;
+	color: white;
+}
