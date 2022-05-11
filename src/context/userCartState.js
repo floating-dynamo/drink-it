@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import userCartContext from "./userCartContext";
 
-const TokenState = (props) => {
+const userCartState = (props) => {
 	const [cart, setCart] = useState(" ");
 	return (
 		<userCartContext.Provider value={{ cart, setCart }}>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import userWishContext from "./userWishContext";
 
-const TokenState = (props) => {
+const userWishState = (props) => {
 	const [wish, setWish] = useState(" ");
 	return (
 		<userWishContext.Provider value={{ wish, setWish }}>
