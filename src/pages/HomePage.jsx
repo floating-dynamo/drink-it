@@ -6,10 +6,10 @@ import Main from "../components/Main";
 import Navbar from "../components/Navbar";
 import Testimonials from "../components/Testimonials";
 import juice from "../images/juices/juice.png";
-import userCartState from "../context/userCartState"
+import UserCartState from "../context/UserCartState"
 
 const HomePage = () => {
-	let {cart, setCart} = useContext(userCartState);
+	let {cart, setCart} = useContext(UserCartState);
 	useEffect(()=>{
 		setCart("Hello")
 	},[])
