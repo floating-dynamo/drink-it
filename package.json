@@ -1,5 +1,6 @@
 {
   "name": "drinkit",
+  "homepage" : "https://floating-dynamo.github.io/drink-it", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {

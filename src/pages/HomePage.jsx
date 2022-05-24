@@ -9,10 +9,6 @@ import juice from "../images/juices/juice.png";
 import UserCartState from "../context/UserCartState"
 
 const HomePage = () => {
-	let {cart, setCart} = useContext(UserCartState);
-	useEffect(()=>{
-		setCart("Hello")
-	},[])
 	return (
 		<div className="home">
 			<Navbar />
@@ -21,7 +17,6 @@ const HomePage = () => {
 			<Testimonials />
 			<Contact />
 			<CopyRight />
-			{console.log(cart)}
 		</div>
 	);
 };

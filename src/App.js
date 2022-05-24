@@ -8,6 +8,9 @@ import BottleJuiceDetails from "./pages/BottleJuiceDetails";
 import ScrollToTop from "./components/ScrollToTop";
 import UserCartState from "./context/UserCartState";
 import UserWishState from "./context/UserWishState";
+import Cart from "./pages/Cart";
+import WishList from "./pages/WishList";
+import PaymentPage from "./pages/PaymentPage";
 
 function App() {
 	return (
@@ -24,6 +27,9 @@ function App() {
 							path="/catalogue/bottle-juice/:name"
 							element={<BottleJuiceDetails />}
 						/>
+						<Route path="/cart" element={<Cart />}/>
+						<Route path="/wishlist" element={<WishList />}/>
+						<Route path="/pay" element={<PaymentPage />}/>
 						<Route path="*" element={<ErrorPage />} />
 					</Routes>
 				</UserWishState>

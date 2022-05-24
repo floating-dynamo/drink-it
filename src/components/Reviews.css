@@ -1,0 +1,43 @@
+.reviews {
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	margin: 50px;
+}
+
+.reviews > h2 {
+	border-bottom: 5px solid #f28500;
+	width: max-content;
+}
+
+.review {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.review > div{
+    margin: 20px;
+}
+
+.review > div > div{
+	display: flex;
+	align-items: center;
+}
+
+.review > div > div > .icon {
+	color: white;
+	background-color: #f28500;
+	padding: 15px;
+	border-radius: 100%;
+	margin-right: 20px;
+}
+
+.review > div > div > h4 {
+	font-size: 1.25rem;
+	border-bottom: 2px solid rgba(67, 13, 97, 0.8);
+}
+
+.review > div > div > p{
+    margin-top: 20px;
+}

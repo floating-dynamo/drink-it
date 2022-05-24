@@ -17,18 +17,23 @@
 	justify-content: center;
 }
 
+.entire-juice-bottle{
+	position: relative;
+}
+
 .juice-bottle {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	width: 400px;
+	height: 450px;
 	margin: 10px;
 	margin-bottom: 40px;
 	/* border: 2px solid red; */
 	box-shadow: 2px 2px 1rem rgba(0, 0, 0, 0.2);
 	border-radius: 0.2vw;
 	padding: 20px;
-	position: relative;
+	/* position: relative; */
 	cursor: pointer;
 	transition: all 0.3s ease-out;
 }
@@ -40,6 +45,7 @@
 .juice-bottle > img {
 	width: 120px;
 	margin-bottom: 20px;
+	/* aspect-ratio: 1,2; */
 	/* box-shadow: 2px 2px 1rem rgba(0, 0, 0, 0.2); */
 }
 
@@ -68,6 +74,7 @@
 .juice-bottle-wish {
 	position: absolute;
 	right: 20px;
+	top: 20px;
 	font-size: 1.5rem;
 	border-radius: 100%;
 	/* background-color: red; */
@@ -75,6 +82,7 @@
 	padding: 10px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+	z-index: 2;
 }
 
 .juice-bottle-wish:hover{

@@ -4,7 +4,7 @@
 	/* justify-content: center; */
 	box-sizing: border-box;
 	padding: 20px 50px;
-    margin-left: 60px;
+	margin-left: 60px;
 	/* height: 50vh; */
 }
 
@@ -28,6 +28,13 @@
 	color: white;
 	padding: 10px 20px;
 	border-radius: 0.2vw;
+	border: 2px solid #f28500;
+	transition: all 0.3s ease-in;
+}
+
+.bottle-btn:hover {
+	color: #f28500;
+	background-color: #fff;
 }
 
 .bottle-btns > input {

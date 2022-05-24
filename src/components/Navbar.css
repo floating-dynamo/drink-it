@@ -84,15 +84,20 @@
 }
 
 .icons{
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
-.icons .icon{
+.icons > .icon-link > .icon{
     font-size: 1.5rem;
-    margin: 0 17px;
+    /* margin: 0 0px; */
     cursor: pointer;
     position: relative;
     transition: all 0.3s ease-out;
+}
+
+.icon-link{
+    margin: 0;
+    padding: 0;
 }
 
 .icon:hover{

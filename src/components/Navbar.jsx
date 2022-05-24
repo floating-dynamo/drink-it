@@ -2,8 +2,12 @@ import React from "react";
 import "./Navbar.css";
 import logo from "../images/logo/default-monochrome.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBasketShopping, faSearch, faUser} from "@fortawesome/free-solid-svg-icons";
-import { faHeart} from '@fortawesome/free-regular-svg-icons'
+import {
+	faBasketShopping,
+	faSearch,
+	faUser,
+} from "@fortawesome/free-solid-svg-icons";
+import { faHeart } from "@fortawesome/free-regular-svg-icons";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -26,14 +30,24 @@ const Navbar = () => {
 					CONTACT
 				</Link>
 				<div className="search-bar">
-					<input type="text" placeholder="Search"/>
-                    <FontAwesomeIcon icon = {faSearch} color="#440e62" className="search-icon"/>
+					<input type="text" placeholder="Search" />
+					<FontAwesomeIcon
+						icon={faSearch}
+						color="#440e62"
+						className="search-icon"
+					/>
 				</div>
-                <div className="icons">
-                    <FontAwesomeIcon className="icon" icon={faBasketShopping} />
-                    <FontAwesomeIcon className="icon" icon={faHeart} />
-                    <FontAwesomeIcon className="icon" icon={faUser} />
-                </div>
+				<div className="icons">
+					<Link className="icon-link" to="/cart">
+						<FontAwesomeIcon className="icon" icon={faBasketShopping} />
+					</Link>
+					<Link className="icon-link" to="/wishlist">
+						<FontAwesomeIcon className="icon" icon={faHeart} />
+					</Link>
+					<Link className="icon-link" to="#">
+						<FontAwesomeIcon className="icon" icon={faUser} />
+					</Link>
+				</div>
 			</div>
 		</div>
 	);
