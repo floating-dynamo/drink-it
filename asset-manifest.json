@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/drink-it/static/css/main.706a7836.css",
+    "main.js": "/drink-it/static/js/main.768f3f5b.js",
+    "static/media/juices.png": "/drink-it/static/media/juices.ae95292940c27dc1c74d.png",
+    "static/media/juice.png": "/drink-it/static/media/juice.376ec31c48aa77ab0c0f.png",
+    "static/media/shri-cof.png": "/drink-it/static/media/shri-cof.5bcb7063307aab6461f9.png",
+    "static/media/shubham-cof.png": "/drink-it/static/media/shubham-cof.9f4b629c934ae363123e.png",
+    "static/media/bottle_5.png": "/drink-it/static/media/bottle_5.2fff262a589d20870302.png",
+    "static/media/bottle_6.png": "/drink-it/static/media/bottle_6.b5c2f3106fc5213d8a8d.png",
+    "static/media/bottle_3.png": "/drink-it/static/media/bottle_3.5ba57409cf894ef98148.png",
+    "static/media/bottle_1.png": "/drink-it/static/media/bottle_1.97d93511edcc17f5f721.png",
+    "static/media/bottle_2.png": "/drink-it/static/media/bottle_2.b569b19feda7014a14c9.png",
+    "static/media/bottle_4.png": "/drink-it/static/media/bottle_4.a5b7267e34954bff6b97.png",
+    "static/media/default-monochrome.svg": "/drink-it/static/media/default-monochrome.28e16c5e7e8454f9317947fbb4863343.svg",
+    "static/media/wave.svg": "/drink-it/static/media/wave.f498c7c68190a5b54664.svg",
+    "static/media/void.svg": "/drink-it/static/media/void.bd0385cbef1ce1329227ee58220fb20d.svg",
+    "static/media/wavebg.svg": "/drink-it/static/media/wavebg.739123522253e6584d09.svg",
+    "static/media/wave-2.svg": "/drink-it/static/media/wave-2.cc4220da5121a8c2f1cd.svg",
+    "index.html": "/drink-it/index.html",
+    "main.706a7836.css.map": "/drink-it/static/css/main.706a7836.css.map",
+    "main.768f3f5b.js.map": "/drink-it/static/js/main.768f3f5b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.706a7836.css",
+    "static/js/main.768f3f5b.js"
+  ]
+}
